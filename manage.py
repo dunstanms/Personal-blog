@@ -29,4 +29,5 @@ def make_shell_context():
                 PostLike = PostLike)
 
 if __name__ == '__main__':
+    SECRET_KEY="anysecretkey"
     manager.run()
