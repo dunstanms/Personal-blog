@@ -14,7 +14,7 @@ class Config:
 
 class ProdConfig(Config):
     
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = postgresql://caqifpdubxufnz:'84e3fd6a327f4cb5db1f87106fe78ace435b8858cd1c554974c746dac81a2f3c@ec2-23-22-191-232.compute-1.amazonaws.com:5432/d7v5ctmoa02fph?sslmode=require'
 
 class TestConfig(Config):
     
