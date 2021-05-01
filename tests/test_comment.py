@@ -5,7 +5,7 @@ class TestPost(unittest.TestCase):
     
     def setUp(self):
         self.user_Mark = User(first_name = "Mark",
-                                last_name = "Muchiri",
+                                last_name = "Rufallo",
                                 username = "mmm",
                                 password = "firm",
                                 email = "stan@mail.com")
