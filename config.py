@@ -14,8 +14,8 @@ class Config:
 
 class ProdConfig(Config):
     
-    SQLALCHEMY_DATABASE_URI = postgresql://wdufijrivdzeof:"8cc7c0cc28562357dc250002f1cdbd8852cc07378be8b06331129e8224d17ca4@ec2-52-7-115-250.compute-1.amazonaws.com:5432/d1tiq4quv8fgd1?sslmode=require"
-
+    SQLALCHEMY_DATABASE_URI = "postgresql://wdufijrivdzeof:8cc7c0cc28562357dc250002f1cdbd8852cc07378be8b06331129e8224d17ca4@ec2-52-7-115-250.compute-1.amazonaws.com:5432/d1tiq4quv8fgd1?sslmode=require"
+  #SQLALCHEMY_DATABASE_URI  =os.environ.get("DATABASE_URL") 
 class TestConfig(Config):
     
     SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:test123@localhost/blogger_test"
